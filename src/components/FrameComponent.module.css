@@ -1,0 +1,44 @@
+.carehub {
+  text-decoration: none;
+  align-self: stretch;
+  height: 39px;
+  position: relative;
+  letter-spacing: 0.06em;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.carehubWrapper,
+.frameWrapper,
+.logoCarehubParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.carehubWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-mid) 0 0;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.frameWrapper,
+.logoCarehubParent {
+  flex-direction: row;
+}
+.logoCarehubParent {
+  align-self: stretch;
+  flex: 1;
+  gap: var(--gap-9xs);
+}
+.frameWrapper {
+  width: 212px;
+  height: 73px;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}

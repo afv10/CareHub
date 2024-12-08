@@ -1,0 +1,56 @@
+.email {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.emailWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 var(--padding-8xs);
+}
+.frameChild,
+.frameItem {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.frameChild {
+  height: 84px;
+  font-family: var(--m3-label-large);
+  font-weight: 500;
+  font-size: var(--m3-label-large-size);
+  color: var(--color-black);
+  width: 100%;
+}
+.frameItem {
+  outline: 0;
+  height: 52px;
+  position: relative;
+  min-width: 216px;
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mid) 0 var(--padding-9xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--m3-label-large-size);
+  color: var(--color-black);
+  font-family: var(--m3-label-large);
+}

@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --m3-label-large: Roboto;
+  --font-poppins: Poppins;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --m3-label-large-size: 14px;
+  --font-size-13xl: 32px;
+  --font-size-17xl: 36px;
+  --font-size-xl: 20px;
+  --font-size-mini: 15px;
+  --font-size-smi: 13px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-lightskyblue: #a8d5ff;
+  --schemes-outline: #79747e;
+  --color-gray-100: rgba(0, 0, 0, 0.3);
+  --schemes-secondary-container: #e8def8;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-9xs: 4px;
+  --gap-10xs: 3px;
+  --gap-2xs: 11px;
+  --gap-7xs: 6px;
+  --gap-6xs-7: 6.7px;
+  --gap-159xl: 178px;
+  --gap-8xs: 5px;
+  --gap-49xl: 68px;
+  --gap-46xl: 65px;
+  --gap-20xl: 39px;
+  --gap-23xl: 42px;
+  --gap-5xs: 8px;
+  --gap-45xl: 64px;
+  --gap-2xl: 21px;
+  --gap-0: 0px;
+
+  /* Paddings */
+  --padding-lg: 18px;
+  --padding-7xl: 26px;
+  --padding-base: 16px;
+  --padding-7xs: 6px;
+  --padding-xl: 20px;
+  --padding-12xl: 31px;
+  --padding-2xs: 11px;
+  --padding-23xl: 42px;
+  --padding-11xs: 2px;
+  --padding-12xs: 1px;
+  --padding-84xl: 103px;
+  --padding-103xl: 122px;
+  --padding-9xs: 4px;
+  --padding-10xs: 3px;
+  --padding-8xs: 5px;
+  --padding-6xs: 7px;
+  --padding-17xl: 36px;
+  --padding-mini: 15px;
+  --padding-4xl-4: 23.4px;
+  --padding-xs: 12px;
+  --padding-8xs-8: 4.8px;
+  --padding-68xl: 87px;
+  --padding-5xs: 8px;
+  --padding-3xs: 10px;
+  --padding-5xl: 24px;
+  --padding-4xl: 23px;
+  --padding-mid: 17px;
+  --padding-lg-7: 18.7px;
+  --padding-71xl: 90px;
+  --padding-xs-3: 11.3px;
+  --padding-smi: 13px;
+
+  /* Border radiuses */
+  --br-xs: 12px;
+  --br-11xl: 30px;
+  --br-81xl: 100px;
+}

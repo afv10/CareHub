@@ -1,0 +1,71 @@
+.a {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  color: inherit;
+  white-space: nowrap;
+}
+.wrapper {
+  width: 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.signalIcon {
+  width: 25.2px;
+  height: 25.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.signalWrapper {
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.batteryHalfIcon,
+.wifiIcon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.wifiIcon {
+  height: 27px;
+  width: 25px;
+  min-height: 27px;
+}
+.batteryHalfIcon {
+  height: 26px;
+  width: 29px;
+}
+.frameParent,
+.headerOfPhone {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent {
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  z-index: 1;
+}
+.headerOfPhone {
+  flex: 1;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

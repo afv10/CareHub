@@ -1,0 +1,115 @@
+.logoCarehubChild {
+  width: 12.1px;
+  height: 5.7px;
+  position: absolute;
+  margin: 0 !important;
+  top: 10.8px;
+  right: 32.4px;
+  object-fit: contain;
+  z-index: 0;
+}
+.logoCarehubItem {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-11xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.lineIcon,
+.logoCarehubChild1,
+.logoCarehubInner {
+  width: 6.7px;
+  height: 3.4px;
+  position: absolute;
+  margin: 0 !important;
+  top: 7.4px;
+  right: 35.2px;
+  object-fit: contain;
+  z-index: 2;
+}
+.lineIcon,
+.logoCarehubChild1 {
+  width: 16px;
+  height: 7.7px;
+  top: 14.4px;
+  right: 30.7px;
+  z-index: 3;
+}
+.logoCarehubChild1 {
+  width: 18.1px;
+  height: 8.7px;
+  top: 17.7px;
+  right: 30.1px;
+  z-index: 4;
+}
+.logoCarehubChild2,
+.logoCarehubChild3 {
+  width: 19.4px;
+  height: 9.8px;
+  position: absolute;
+  margin: 0 !important;
+  top: 22.4px;
+  left: 30.3px;
+  object-fit: contain;
+  z-index: 5;
+}
+.logoCarehubChild3 {
+  width: 18.5px;
+  height: 9.9px;
+  top: 27.5px;
+  left: 30.1px;
+  z-index: 6;
+}
+.logoCarehubChild4,
+.logoCarehubChild5 {
+  width: 14.7px;
+  height: 8.8px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 30.3px;
+  left: 30.9px;
+  object-fit: contain;
+  z-index: 7;
+}
+.logoCarehubChild5 {
+  width: 10.3px;
+  height: 5.7px;
+  bottom: 26.2px;
+  left: 32.9px;
+  z-index: 8;
+}
+.carehub {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.06em;
+  flex-shrink: 0;
+}
+.carehubWrapper,
+.logoCarehub {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.carehubWrapper {
+  height: 10.8px;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl) 0 var(--padding-4xl);
+  box-sizing: border-box;
+  z-index: 9;
+}
+.logoCarehub {
+  width: 80px;
+  flex-direction: column;
+  position: relative;
+  gap: var(--gap-6xs-7);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}

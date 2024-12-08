@@ -1,0 +1,52 @@
+.blankLine,
+.hello1 {
+  margin: 0;
+}
+.hello1 {
+  font-size: var(--font-size-17xl);
+}
+.hello,
+.wereHereToContainer {
+  display: inline-block;
+  flex-shrink: 0;
+}
+.hello {
+  width: 136px;
+  height: 65px;
+  position: relative;
+  letter-spacing: 0.06em;
+}
+.wereHereToContainer {
+  width: 343px;
+  height: 115px;
+  max-width: 100%;
+}
+.pleaseLoginOr,
+.wereHereToContainer {
+  position: relative;
+  letter-spacing: 0.06em;
+  font-weight: 300;
+}
+.frameParent,
+.loginDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.loginDescription {
+  padding: 0 var(--padding-12xs) 0 var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-0);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frameParent {
+  gap: var(--gap-7xs);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
